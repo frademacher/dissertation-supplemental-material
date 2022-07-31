@@ -1,0 +1,9 @@
+package de.puls.ChargingStationManagementCommandSide.service.ChargingStationManagementCommandSide;
+
+import de.fhdo.lemma.msa.services.LemmaMicroservice;
+import de.fhdo.lemma.msa.services.LemmaMicroserviceType;
+import de.puls.ChargingStationManagementCommandSide.service.ChargingStationManagementCommandSide.gen.ChargingStationManagementCommandSideGen;
+
+@LemmaMicroservice(type = LemmaMicroserviceType.FUNCTIONAL)
+public class ChargingStationManagementCommandSide implements ChargingStationManagementCommandSideGen {
+}

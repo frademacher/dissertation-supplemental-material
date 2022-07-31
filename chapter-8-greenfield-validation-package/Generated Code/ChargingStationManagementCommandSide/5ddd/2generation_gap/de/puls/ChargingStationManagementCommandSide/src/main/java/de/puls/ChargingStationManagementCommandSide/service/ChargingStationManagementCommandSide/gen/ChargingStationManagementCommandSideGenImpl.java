@@ -1,0 +1,4 @@
+package de.puls.ChargingStationManagementCommandSide.service.ChargingStationManagementCommandSide.gen;
+
+public abstract class ChargingStationManagementCommandSideGenImpl implements ChargingStationManagementCommandSideGen {
+}

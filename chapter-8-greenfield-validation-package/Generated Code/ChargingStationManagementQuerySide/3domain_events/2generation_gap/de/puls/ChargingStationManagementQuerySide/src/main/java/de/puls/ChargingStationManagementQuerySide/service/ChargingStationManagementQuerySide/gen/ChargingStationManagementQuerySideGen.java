@@ -1,0 +1,4 @@
+package de.puls.ChargingStationManagementQuerySide.service.ChargingStationManagementQuerySide.gen;
+
+public interface ChargingStationManagementQuerySideGen {
+}

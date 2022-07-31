@@ -1,0 +1,15 @@
+package de.puls.ChargingStationManagementQuerySide.service.ChargingStationManagementQuerySide.interfaces.gen;
+
+import de.puls.ChargingStationManagementQuerySide.domain.ChargingStationManagement.Location;
+import de.puls.ChargingStationManagementQuerySide.domain.ChargingStationManagement.ParkingAreaInformation;
+import de.puls.ChargingStationManagementQuerySide.domain.ChargingStationManagement.ParkingAreaInformationList;
+import de.puls.ChargingStationManagementQuerySide.service.ChargingStationManagementQuerySide.interfaces.operations.QuerySide.getParkingArea.ParkingAreaNotFoundException;
+import de.puls.ChargingStationManagementQuerySide.service.ChargingStationManagementQuerySide.interfaces.operations.QuerySide.getParkingAreas.NoParkingAreasFoundException;
+import org.springframework.http.ResponseEntity;
+
+public interface QuerySideGen {
+
+    ResponseEntity<ParkingAreaInformation> getParkingArea(Long id) throws ParkingAreaNotFoundException;
+
+    ResponseEntity<ParkingAreaInformationList> getParkingAreas(Location northEastBound, Location southWestBound) throws NoParkingAreasFoundException;
+}

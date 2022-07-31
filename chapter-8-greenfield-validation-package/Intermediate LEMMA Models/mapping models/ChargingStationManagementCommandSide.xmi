@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<intermediate:IntermediateServiceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:intermediate="http://www.fhdo.de/lemma/service/intermediate" sourceModelUri="file://ChargingStationManagementCommandSide.xmi">
+  <imports name="CommandSideServices" importUri="file://../service models/ChargingStationManagementCommandSide.xmi" importTypeName="MICROSERVICES"/>
+  <imports name="Java" importUri="file://../../Source LEMMA Models/Java.technology" importTypeName="TECHNOLOGY"/>
+  <imports name="Kafka" importUri="file://../../Source LEMMA Models/Kafka.technology" importTypeName="TECHNOLOGY"/>
+  <imports name="Spring" importUri="file://../../Source LEMMA Models/Spring.technology" importTypeName="TECHNOLOGY"/>
+  <imports name="Domain" importUri="file://ChargingStationManagementCommandSide/Domain_ChargingStationManagement.xmi" importTypeName="DATATYPES"/>
+</intermediate:IntermediateServiceModel>
